@@ -74,3 +74,10 @@ div.red:hover{
     height: 7rem;
 
 }
+
+.chicken{
+    height: 923px;
+    width: 923px;
+    background-image:url("https://images7.memedroid.com/images/UPLOADED420/65b14f32add34.webp");
+    background-repeat: no-repeat;
+}
