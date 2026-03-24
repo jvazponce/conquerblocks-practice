@@ -35,6 +35,11 @@ a:visited, a {
 a:hover {
     color: aquamarine;
     font-size: 2rem;
+    transition: color 0.5s ease, font-size 0.5s ease;
+    cursor: progress;
+    
+    
+    
 }
 
 div.red{
@@ -76,8 +81,18 @@ div.red:hover{
 }
 
 .chicken{
-    height: 923px;
-    width: 923px;
+    height: 1200px;
+    width: 1200px;
     background-image:url("https://images7.memedroid.com/images/UPLOADED420/65b14f32add34.webp");
+    background-size: cover;
     background-repeat: no-repeat;
+    background-color: black
+    radial-gradient(white, yellow, red);
+    
+}
+.gradient {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    width: 100%;
+    height: 20px;
+    margin-top: 20px;
 }
