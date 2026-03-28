@@ -36,7 +36,7 @@ a:hover {
     color: aquamarine;
     font-size: 2rem;
     transition: color 0.5s ease, font-size 0.5s ease;
-    cursor: progress;
+    
     
     
     
@@ -96,3 +96,60 @@ div.red:hover{
     height: 20px;
     margin-top: 20px;
 }
+h1.ejercicio1{
+    background-color: rgb(58, 58, 58);
+    padding: 10px;
+    color: white;
+    text-align: justify;
+    font-size: 3rem;
+    white-space: nowrap;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+
+    
+    
+}
+section.ejercicio1{
+    width: 900px;
+}
+div.ejercicio1{
+    background-color: gray;
+    height: 60px;
+    
+    display: flex;
+}
+div.ejercicio1 a{
+    background-color: gray;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+div.ejercicio1 a:hover{
+    background-color: rgb(71, 71, 71);
+    color: black;
+    font-size: 1rem;
+
+}
+li.sec{
+    display: none;
+    
+    
+}
+
+ul:hover li{
+    display: flex;
+    
+}
+ul.menu1{
+    list-style: none;
+}
+ul.menu1 a:hover{
+    font-size: 20px;
+}
+ul.menu1 li{
+    font-size: 20px;
+    
+}
+
+
